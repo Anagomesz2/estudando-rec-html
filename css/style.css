@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: #F8FAFC;
+    font-family: Open Sans, sans-serif;
+}
+
+#cabecalho-principal {
+    padding: 10px;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-Lumina h1{
+    color:#2563EB;
+    margin: 10px;
+}
+
+.menu-links{
+    display: flex;
+    gap:15px;
+    justify-content:right;
+    color:#475569;
+    text-decoration: none;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+.menu-links a{
+    color:#475569;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    text-align: center;
+}
+
+#frase-principal {
+    margin: 10px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#frase-principal h1{
+    font-size: 60px;
+    line-height: 1;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+#frase-principal p{
+    font-size: 20px;
+    line-height: 1;
+    margin-top: 20px;
+    color:#475569;
+    margin-bottom: 35px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+#botao-meio a {
+    color:#F8FAFC;
+    background-color:#2563EB;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+#cards {
+    display: flex;
+    gap:20px;
+    border-radius: 5px;
+    background-color:#DBEAFE;
+}
+
+.card h2 {
+    color:#2563EB;
+    margin: 10px;
+    background-color:#DBEAFE;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
